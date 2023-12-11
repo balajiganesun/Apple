@@ -1,0 +1,417 @@
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+* {
+    text-align: center;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    
+}
+
+* button:hover {
+    background-color: black;
+    color: rgb(66, 17, 244);
+    border: none;
+
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    background-color: rgb(190, 182, 182);
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px dashed red; */
+}
+
+nav div a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    /* border-radius: 50px; */
+    font-size: 15px;
+}
+
+nav div a:hover {
+    /* border: 1px solid; */
+
+}
+
+
+nav div {
+    display: flex;
+    width: 80%;
+    color: black;
+    margin-right: 60px;
+    justify-content: space-evenly;
+}
+
+ 
+#img1 {
+    position: relative;
+}
+
+#s1i {
+    position: absolute;
+    margin-left: 35%;
+    color: antiquewhite;
+    top: 0%;
+    padding: 50px;
+
+}
+
+.s3 {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#s3i {
+    padding: 0px 30px;
+    border-radius: 20px;
+
+    background: #000;
+}
+
+
+.s5 {
+    display: flex;
+
+}
+
+.s6 {
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.s7 {
+    width: 100%;
+
+}
+
+.s7 {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 30px;
+
+}
+
+#s7i {
+    border-radius: 100%;
+    border-bottom-right-radius: 5cm;
+}
+
+.s8 {
+    display: flex;
+    gap: 170px;
+    /* justify-content: ; must learn */
+    padding: 60px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+
+
+.s8 div {
+    /* border: 1px dashed black; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.s8_div1 span:nth-child(11) {
+    margin-bottom: 15px;
+
+
+}
+
+.s9 {
+    font-size: 10px;
+}
+
+.s10 {
+    font-size: 10px;
+}
+
+/* .s9 {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 100%;
+    padding: 0px 30px;
+   
+}
+#s9i {
+    padding: 0px 30px;
+    border-radius: 100%;
+    border-bottom-right-radius: 10cm;
+    
+} */
+
+
+/* section 5 */
+ /* .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+
+.slider .slide {
+    width: 20%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    transition: all 0.6s;
+
+}
+
+.slider .slide:nth-child(1) {
+    background: url("s7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(2) {
+    background: url("s8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(3) {
+    background: url("s9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(4) {
+    background: url("s10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(5) {
+    background: url("s8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:hover {
+    width: 60%;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}  */
+
+ 
+ .s11 {
+    text-align: center;
+
+}
+
+.cardd {
+    color: rgb(65, 65, 238);
+    font-size: 40px;
+}
+
+
+#s13 {
+    border-radius: 5%;
+}
+
+.s14 {
+    display: flex;
+    gap: 150px;
+}
+
+
+.s15 p {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    top: 3800px;
+    left: 550px;
+}
+
+#b15 {
+    position: absolute;
+    width: 10%;
+    text-align: center;
+    top: 4000px;
+    left: 700px;
+}
+
+#sp1 {
+    font-size: 25px;
+}
+
+
+.s16 {
+    display: flex;
+    padding-left: 350px;
+
+}
+
+
+.s17{
+        position: relative;
+        display: flex;
+        margin-top: 30px;
+        padding: 0px 30px;
+    } 
+    
+    .s17 {
+    background-color: #1e1d1d;
+    color: antiquewhite;
+    font-size: 20px;
+    height: 95px;
+    width: 100%;
+} 
+
+
+#s21 {
+    width: 100%;
+    height: 650px;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+.s21 div {
+    font-size: 130px;
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 350px;
+    color: antiquewhite;
+}
+
+.s21 span {
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 496px;
+    left: 620px;
+    color: antiquewhite;
+}
+
+#span21 {
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    padding: 1px;
+    left: 640px;
+    color: antiquewhite;
+}
+
+
+#diva {
+    font-size: 120px;
+    position: absolute;
+    text-align: center;
+    top: 1000px;
+    left: 495px;
+    }
+    #spana{
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        top:1020px;
+        padding: 100px;
+        left: 500px;
+    }
+
+    #spanb{
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        top:1050px;
+        padding: 100px;
+        left: 510px;
+    }
+
+
+    .s23 div{
+        font-size: 120px;
+        position: absolute;
+        text-align: center;
+        top: 1625px;
+        left: 550px;
+    }
+    .s23 span{
+        font-size: xx-large;
+        position: absolute;
+        text-align: center;
+        top: 1740px;
+        left: 630px;
+    }
+    #span23{
+        font-size: xx-large;
+        position: absolute;
+        text-align: center;
+        top: 1770px;
+        left: 650px;
+    }
+
+    .s25 div{
+        font-size: 65px;
+    }
+
+    .s26{
+        display: flex;
+        gap: 150px;
+        padding: 80px;
+        margin-top:px;
+    }
+
+    
+    .s27 div{
+        font-size: 60px;
+       
+    }
+
+    .s28{
+        display: flex;
+        gap: 150px;
+        padding: 200px;
+        
+       
+    }
+    .s29{
+        font-size: 55px;
+        display: flex;
+        gap: 8%;
+        padding: 300px;
+        
+    }
+
+    .s29 p{
+        font-size: small;
+    } 
+
